@@ -32,7 +32,7 @@ h2 {
 }
 @font-face {
     font-family: Bigilla;
-    src: url('/assets/Bigilla.otf');
+    src: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/assets/Bigilla.otf');
 }
 
 h4 {
@@ -154,7 +154,7 @@ nav hr {
     top: 154px;
     width: 100vw;
     height: calc(100vw / 2.32);
-    background: url('./images/unsplash_dmkmrNptMpw.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/unsplash_dmkmrNptMpw.png');
     background-size: 100%;
     margin: 0;
     padding: 0;
@@ -457,13 +457,13 @@ a {
     top: 154px;
     width: 100vw;
     height: 735px;
-    background: url('./images/about.gif');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/about.gif');
     background-size: 100%;
     color: white;
 }
 
 #story {
-    background: url('./images/story.gif');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/story.gif');
     background-size: 100%;
 }
 
@@ -707,7 +707,7 @@ a {
     left: calc(50vw - 506.5px);
     width: 1013px;
     height: 614px;
-    background: url('/images/phone.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/phone.png');
 }
 
 .contact form {
@@ -991,14 +991,14 @@ a {
 #black {
     left: 0;
     position: absolute;
-    background: url('/images/blvck.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/blvck.png');
     background-size: 100%;
 }
 
 #silver {
     right: 0;
     position: absolute;
-    background: url('/images/silvae\ 1.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/silvae\ 1.png');
     background-size: 100%;
 }
 
@@ -1326,7 +1326,7 @@ a {
         left: calc(50vw - 578.5px);
         width: 1157.56px;
         height: 500px;
-        background: url('./images/unsplash_dmkmrNptMpw.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/unsplash_dmkmrNptMpw.png');
         background-size: 100%;
         margin: 0;
         padding: 0;
@@ -1643,13 +1643,13 @@ a {
         top: 154px;
         width: 100vw;
         height: 735px;
-        background: url('./images/about.gif');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/about.gif');
         background-size: 100%;
         color: white;
     }
 
     #story {
-        background: url('./images/story.gif');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/story.gif');
         background-size: 100%;
     }
 
@@ -1880,7 +1880,7 @@ a {
         left: 0;
         width: 100vw;
         height: 614px;
-        background: url('/images/phone.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/phone.png');
     }
 
     .contact form {
@@ -2039,7 +2039,7 @@ a {
     #black {
         position: absolute;
         left: calc(50% - 148px);
-        background: url('/images/blvck.png');
+        background: uurl('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/blvck.png');
         background-size: 100%;
     }
 
@@ -2047,7 +2047,7 @@ a {
         top: 500px;
         left: calc(50% - 148px);
         position: absolute;
-        background: url('/images/silvae\ 1.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/silvae\ 1.png');
         background-size: 100%;
     }
 

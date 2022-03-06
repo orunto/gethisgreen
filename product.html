@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800;900&display=swap" rel="stylesheet"> 
-    <script src="main.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script> -->
+    <script src="product.js"></script>
     <title>GethisGreen</title>
 </head>
 <body style="height: 1195px;">
@@ -47,34 +49,70 @@
         <div class="nextbar"></div>
     </header>
 
-    <section class="contact">
-        <form onsubmit="console.log('You clicked submit.'); return false">
-            <h4>Contact Us</h4>
-            <p>Leave a message and we'll get to you as soon as possible!</p>
-            <div id="name">
-                <span>Name</span>
-                <input type="text" name="name" placeholder="Name" required>
-            </div>
-            
-            <div id="mail">
-                <span>Email</span>
-                <input type="email" name="email" placeholder="Email" required>
-            </div>
+    <section class="product" >
+        <h4 id="blackhead">Midnight Black</h4>
+        <h4 id="silverhead">Silver</h4>
+        <hr id="underline">
 
-            <div id="number">
-                <span>Mobile Number</span>
-                <input type="tel" name="digits" placeholder="XXX-XXX-XXXXXX" required>
+        <div id="onebox">
+            <div id="onespan">
+                <span class="title">1 Pen in a Box</span>
+                <span id="oneprice">$100</span>
             </div>
+            <span class="inkcolor">Ink Color</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/ink.svg" class="addcolor">
+            <div id="counter">
+                <span>1</span>
+                <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg">
+            </div>
+        </div>
 
-            <div id="message">
-                <span>Leave a Short Message</span>
-                <input type="text" name="message" placeholder="Short Message" required>
+        <div id="threebox">
+            <div id="threespan">
+                <span class="title">3 Pen in a Box</span>
+                <span id="oneprice">$250</span>
             </div>
-            <input type="submit" id="submitbutton" name="submit" value="Submit">
-        </form>
+            <span class="inkcolor">Ink Color</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/ink.svg" class="addcolor">
+            <div id="counter2">
+                <span>1</span>
+                <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg">
+            </div>
+        </div>
+
+        <div id="black">
+            <h5>Midnight Black</h5>
+        </div>
+
+        <div id="silver">
+            <h5>Silver</h5>
+        </div>
     </section>
 
-    <footer style="top: 889px;">
+    <section id="description">
+        <p>The simplicity of the "bolígrafo de Bernard" is greatly inspired by the candor of ancient quill feathers. Intricately built with carbide nibs, the bolígrafo promises to be imperishable and beautiful with every touch. The bolígrafo boasts of a perfect weight, crafted expertly with A1 Titanium metal to establish unquestionable durability.</p>
+        <hr class="feat">
+        <div class="feature">
+            <span class="nametext">Features</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg" alt="">
+        </div>
+        <hr class="write">
+        <div class="writing">
+            <span class="nametext">Writing System</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg" alt="">
+        </div>
+        <hr class="dim">
+        <div class="dimension">
+            <span class="nametext">Dimension</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg" alt="">
+        </div>
+        <hr class="last">
+    </section>
+
+    <!-- <div id="red" style="position: absolute; top: 200px; width: 100px; height: 100px; background: red;"></div> -->
+
+
+    <footer id="productfooter">
         <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/logo.png" alt="GethisGreen" class="footerlogo">
         <h3>Suscribe To Our Newsletter</h3>
         <form>
@@ -116,7 +154,7 @@
             <a href="https://linkedin.com/in/brnrdvctr" target="_blank"><img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/brandico_linkedin.svg" alt="linkedin"></a>
             <a href="https://tiktok.com/@gethisgreen" target="_blank"><img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/simple-icons_tiktok.svg" alt="tiktok"></a>
         </div>
-        
+
         <div class="badges">
             <p href="#"><img height="41px" src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/PayPal.svg" alt="fb"></p>
             <p href="#"><img height="31px" src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/simple-icons_mastercard.svg" alt="insta"></p>
@@ -131,6 +169,5 @@
             <span>2021 GethisGreen Inc. All rights reserved.</span>
         </div>
     </footer>
-
 </body>
 </html>
