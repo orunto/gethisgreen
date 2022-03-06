@@ -13,6 +13,8 @@ window.onload=function (){
     var onebox = document.getElementById("onebox");
     var threebox = document.getElementById("threebox");
     var description = document.getElementById("description");
+    var engraving = document.getElementById("engraving");
+    var order = document.getElementById("order");
     black.addEventListener("click", blvck);
     silver.addEventListener("click", sliver);
 
@@ -27,6 +29,8 @@ window.onload=function (){
         onebox.style.display = "block";
         threebox.style.display = "block";
         description.style.display = "block";
+        engraving.style.display = "block";
+        order.style.display = "block";
     }
 
     function sliver () {
@@ -41,5 +45,7 @@ window.onload=function (){
         onebox.style.display = "block";
         description.style.display = "block";
         threebox.style.display = "block";
+        engraving.style.display = "block";
+        order.style.display = "block";
     }
 }

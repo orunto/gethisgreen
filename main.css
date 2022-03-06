@@ -349,6 +349,7 @@ footer form {
     left: 50px;
     font-family: 'Cinzel', serif;   
     font-size: 13px; 
+    height: 50px;
 }
 
 #email {
@@ -357,7 +358,14 @@ footer form {
     background: none;
     border: 1px solid white;
     color: white;
-    padding-left: 18px;
+    padding: 0 0 0 18px;
+}
+
+footer form img {
+    position: absolute;
+    top: 0.8px;
+    right: 0;
+    cursor: pointer;
 }
 .list {
     position: absolute;
@@ -988,6 +996,44 @@ a {
     right: 17px;
     font-size: 17px;
 }
+
+.product form {
+    position: absolute;
+    top: 328px;
+    left: calc(50% - 213px);
+    width: 426px;
+}
+
+.product form input {
+    width: 100%;
+    font-size: 18px;
+}
+
+#engraving {
+    display: none;
+    height: 46px;
+    border-right: 2px solid #1EAE14;
+    border-bottom: 2px solid #1EAE14;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    padding-left: 24px;
+}
+
+#order {
+    display: none;
+    font-size: 16px;
+    position: absolute;
+    top: 126px;
+    left: calc(50% - 114px);
+    width: 228px;
+    height: 51px;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    background: none;
+    cursor: pointer;
+}
 #black {
     left: 0;
     position: absolute;
@@ -1038,13 +1084,14 @@ a {
     border: 1px solid #676767;
     width: 100%;
     opacity: 0.5;
+    font-size: 16px;
     margin: 0;
 }
 .feature {
     position: absolute;
     top: 205px;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
 }
 .feature img {
     position: absolute;
@@ -1068,7 +1115,7 @@ a {
     position: absolute;
     top: 247px;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
 }
 .dim {
     position: absolute;
@@ -1095,7 +1142,7 @@ a {
     position: absolute;
     top: 289px;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
