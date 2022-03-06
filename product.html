@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800;900&display=swap" rel="stylesheet"> 
-    <script src="main.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script> -->
+    <script src="product.js"></script>
     <title>GethisGreen</title>
 </head>
-<body style="height: 3392px;">
+<body style="height: 1195px;">
     <!-- HEADER -->
     <header>
         <!-- TOPBAR -->
@@ -47,34 +49,70 @@
         <div class="nextbar"></div>
     </header>
 
-    <section class="gethiscare">
-        <h2>GethisCare</h2>
-        <p>At GethisCare, we’re focused on giving every unprivileged Nigerian child a fair chance to succeed. Basic education is very fundamental in a technology-driven world which is why we’re determined to help students stay in school.</p>
-    </section>
+    <section class="product" >
+        <h4 id="blackhead">Midnight Black</h4>
+        <h4 id="silverhead">Silver</h4>
+        <hr id="underline">
 
-    <section class="kids">
-        <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/kids.png" alt="smiling kids">
-        <div>
-            <h2>A Sale Puts a Smile</h2>
-            <p>One in every five of the ''out-of-school children'' in the world is in Nigeria. According to UNICEF, about 10.5 million Nigerian children aged 5-14 years are not in school. Only 61 percent of 6 to 11 year-olds regularly attend primary school and only 35.6 percent of children aged 36-59 months receive early childhood education. In the north of the country, the picture is even bleaker, with a net attendance rate of 53 percent. </p>
+        <div id="onebox">
+            <div id="onespan">
+                <span class="title">1 Pen in a Box</span>
+                <span id="oneprice">$100</span>
+            </div>
+            <span class="inkcolor">Ink Color</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/ink.svg" class="addcolor">
+            <div id="counter">
+                <span>1</span>
+                <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg">
+            </div>
+        </div>
+
+        <div id="threebox">
+            <div id="threespan">
+                <span class="title">3 Pen in a Box</span>
+                <span id="oneprice">$250</span>
+            </div>
+            <span class="inkcolor">Ink Color</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/ink.svg" class="addcolor">
+            <div id="counter2">
+                <span>1</span>
+                <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg">
+            </div>
+        </div>
+
+        <div id="black">
+            <h5>Midnight Black</h5>
+        </div>
+
+        <div id="silver">
+            <h5>Silver</h5>
         </div>
     </section>
 
-    <p class="pocket">At GethisCare, we are completely transparent with where donations go to and all necessary documents and photographs will always be made readily available to donors on the website.
-        <br>
-        <br>
-        Up to 5% of each purchase is directly deposited into the GethisCare fund. The fund is independently used to create a lasting impact on a child’s life and solely for that purpose. 
-    </p>
-
-    <section id="crowd" class="kids">
-        <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/crowd.png" alt="school girls">
-        <div>
-            <h2>Crowdfunding for Disadvantaged Children in Nigeria</h2>
-            <p>Although purchasing our products automatically allows you to contribute a token to underprivileged children in Nigeria, we strongly encourage you to smash the leaderboard by joining our international fundraising community and grow charitable giving.</p>
+    <section id="description">
+        <p>The simplicity of the "bolígrafo de Bernard" is greatly inspired by the candor of ancient quill feathers. Intricately built with carbide nibs, the bolígrafo promises to be imperishable and beautiful with every touch. The bolígrafo boasts of a perfect weight, crafted expertly with A1 Titanium metal to establish unquestionable durability.</p>
+        <hr class="feat">
+        <div class="feature">
+            <span class="nametext">Features</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg" alt="">
         </div>
+        <hr class="write">
+        <div class="writing">
+            <span class="nametext">Writing System</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg" alt="">
+        </div>
+        <hr class="dim">
+        <div class="dimension">
+            <span class="nametext">Dimension</span>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/chevron-left.svg" alt="">
+        </div>
+        <hr class="last">
     </section>
 
-    <footer style="top: 3086px;">
+    <!-- <div id="red" style="position: absolute; top: 200px; width: 100px; height: 100px; background: red;"></div> -->
+
+
+    <footer id="productfooter">
         <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/images/logo.png" alt="GethisGreen" class="footerlogo">
         <h3>Suscribe To Our Newsletter</h3>
         <form>
