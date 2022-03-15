@@ -29,7 +29,7 @@ window.onload=function (){
         onebox.style.display = "block";
         threebox.style.display = "block";
         description.style.display = "block";
-        engraving.style.display = "block";
+        // engraving.style.display = "block";
         order.style.display = "block";
     }
 
@@ -45,7 +45,7 @@ window.onload=function (){
         onebox.style.display = "block";
         description.style.display = "block";
         threebox.style.display = "block";
-        engraving.style.display = "block";
+        // engraving.style.display = "block";
         order.style.display = "block";
     }
 }

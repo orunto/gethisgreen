@@ -880,8 +880,7 @@ a {
 }
 
 .product div:hover{
-    width: 280px;
-    height: 496.26px;
+    transform: scale(1.13,1.13);
     color: white;
 }
 
@@ -1038,9 +1037,9 @@ a {
     display: none;
     font-size: 16px;
     position: absolute;
-    top: 126px;
-    left: calc(50% - 114px);
-    width: 228px;
+    top: 0;
+    left: calc(50% - 120px);
+    width: 240px;
     height: 51px;
     border-right: 2px solid #000000;
     border-bottom: 2px solid #000000;
@@ -1048,6 +1047,15 @@ a {
     border-left: 2px solid #000000;
     background: none;
     cursor: pointer;
+}
+#order{
+    transition: 0.1s;
+}
+#order:hover{
+    background: #2C2C2C;
+    border: #2C2C2C;
+    font-size: 18px;
+    color: white;
 }
 #black {
     left: 0;
