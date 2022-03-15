@@ -138,14 +138,14 @@ nav a {
     color: inherit;
     margin-right: 25px;
     margin-top: 10px;
+    text-align: center;
     font-weight: bold;
 }
 
 nav hr {
     height: 32px;
-    border-color: #DDDDDD;
+    border: 1px solid black;
     margin-right: 25px;
-    
 }
 
 /* BOLIGRAFO */
@@ -191,11 +191,16 @@ h1{
     color: inherit;
     margin: 0;
     padding: 0;
+    transition: 0.1s;
 }
-
+#order_button{
+    transition: 0.1s;
+}
 #order_button:hover{
     background: #2C2C2C;
     border: #2C2C2C;
+    font-size: 18px;
+    width: 240px;
 }
 
 /* TRUE DEFINITION OF CLASS */
@@ -361,11 +366,15 @@ footer form {
     padding: 0 0 0 18px;
 }
 
-footer form img {
+footer form button {
     position: absolute;
     top: 0.8px;
     right: 0;
     cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/newsletter.svg');
+    border: none;
 }
 .list {
     position: absolute;
@@ -705,6 +714,12 @@ a {
 #crowd div {
     height: 184px;
     padding: 108px 130px 99px 130px;
+}
+
+#crowd h2 {
+    margin-left: -130px;
+    width: calc(100% + 260px);
+    text-align: center;
 }
 
 
@@ -1171,7 +1186,7 @@ a {
         left: 50px;
         left: 50px;
         width: calc(100% - 100px);
-        font-size: 32px;
+        font-size: 28px;
     }
     
     #carb {
