@@ -32,7 +32,7 @@ h2 {
 }
 @font-face {
     font-family: Bigilla;
-    src: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/assets/Bigilla.otf');
+    src: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/assets/Bigilla.otf');
 }
 
 h4 {
@@ -93,7 +93,7 @@ header {
 #wish{
     position: absolute;
     right: 61px;
-    top: -6px;
+    top: -10px;
     width: 20.51px;
     height: 17.6px;
 }
@@ -101,7 +101,7 @@ header {
 #cart{
     position: absolute;
     right: 0;
-    top: -6px;
+    top: -10px;
     width: 18.57px;
     height: 20px;
 }
@@ -154,7 +154,7 @@ nav hr {
     top: 154px;
     width: 100vw;
     height: calc(100vw / 2.32);
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/unsplash_dmkmrNptMpw.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/unsplash_dmkmrNptMpw.png');
     background-size: 100%;
     margin: 0;
     padding: 0;
@@ -373,7 +373,7 @@ footer form button {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/newsletter.svg');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/newsletter.svg');
     border: none;
 }
 .list {
@@ -474,13 +474,13 @@ a {
     top: 154px;
     width: 100vw;
     height: 735px;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/about.gif');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/about.gif');
     background-size: 100%;
     color: white;
 }
 
 #story {
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/story.gif');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/story.gif');
     background-size: 100%;
 }
 
@@ -562,6 +562,16 @@ a {
     transition: 0.5s;
 }
 
+#two p {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    font-size: 16px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Cinzel' serif;
+}
+
 #two span {
     position: absolute;
     top: 10px;
@@ -587,6 +597,16 @@ a {
     font-family: 'Cinzel' serif;
 }
 
+#three p {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    font-size: 16px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Cinzel' serif;
+}
+
 #three img {
     position: absolute;
     right: 0;
@@ -606,6 +626,16 @@ a {
     font-family: 'Cinzel' serif;
 }
 
+#four p {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    font-size: 16px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Cinzel' serif;
+}
+
 #four img {
     position: absolute;
     right: 0;
@@ -622,6 +652,16 @@ a {
     position: absolute;
     top: 10px;
     font-size: 18px;
+    font-family: 'Cinzel' serif;
+}
+
+#five p {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    font-size: 16px;
+    opacity: 0;
+    transition: 0.5s;
     font-family: 'Cinzel' serif;
 }
 
@@ -730,7 +770,7 @@ a {
     left: calc(50vw - 506.5px);
     width: 1013px;
     height: 614px;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/phone.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/phone.png');
 }
 
 .contact form {
@@ -884,41 +924,98 @@ a {
     color: white;
 }
 
+
+#black {
+    left: 0;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
+    background-size: 100%;
+}
+
+#silver {
+    right: 0;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
+    background-size: 100%;
+}
+
+.product h5 {
+    position: absolute;
+    bottom: 30px;
+    z-index: 4;
+    text-align: center;
+    font-weight: normal;
+}
+
+#productfooter{
+    top: 889px;
+}
+
+
+/* PRODUCT CUSTOMIZATION PAGE */
+.customize {
+    position: absolute;
+    top: 229px;
+    width: 804px;
+    height: 436px;
+    left: calc(50vw - 402px);
+}
+
+#customizeblack {
+    left: -270px;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
+    background-size: 100%;
+}
+
+#customizesilver {
+    left: -270px;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
+    background-size: 100%;
+}
+
+.customize div{
+    width: 246px;
+    height: 436px;
+    transition: 0.5s;
+}
+
 #blackhead {
+    display: block;
     position: absolute;
     top: -28px;
     font-weight: normal;
     width: 100%;
     text-align: center;
-    display: none;
 }
 
 #silverhead {
+    display: block;
     position: absolute;
     top: -28px;
     font-weight: normal;
     width: 100%;
     text-align: center;
-    display: none;
 }
 
-.product hr {
+.customize hr {
+    display: block;
     position: absolute;
     top: 0;
     left: calc(50% - 59.5px);
     margin: 0;
     width: 119px;
     border: 1px solid black;
-    display: none;
 }
 
 #onebox {
+    display: block;
     position: absolute;
     top: 93px;
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    display: none;
     border: 1px solid black;
     margin: 0;
     padding: 0;
@@ -942,6 +1039,7 @@ a {
     left: calc(50% - 7px);
 }
 #counter {
+    display: block;
     position: absolute;
     top: 65px;
     right: 0;
@@ -963,18 +1061,19 @@ a {
     right: 5px;
 }
 #threebox {
+    display: block;
     position: absolute;
     top: 211px;
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    display: none;
     border: 1px solid black;
     margin: 0;
     padding: 0;
     color: black;
 }
 #counter2 {
+    display: block;
     position: absolute;
     top: 65px;
     right: 0;
@@ -997,6 +1096,7 @@ a {
 }
 
 .title {
+    display: block;
     position: absolute;
     top: 14px;
     left: 17px;
@@ -1005,20 +1105,21 @@ a {
 
 
 #oneprice {
+
     position: absolute;
     top: 14px;
     right: 17px;
     font-size: 17px;
 }
 
-.product form {
+.customize form {
     position: absolute;
     top: 328px;
     left: calc(50% - 213px);
     width: 426px;
 }
 
-.product form input {
+.customize form input {
     width: 100%;
     font-size: 18px;
 }
@@ -1034,7 +1135,7 @@ a {
 }
 
 #order {
-    display: none;
+    display: block;
     font-size: 16px;
     position: absolute;
     top: 0;
@@ -1057,31 +1158,6 @@ a {
     font-size: 18px;
     color: white;
 }
-#black {
-    left: 0;
-    position: absolute;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/blvck.png');
-    background-size: 100%;
-}
-
-#silver {
-    right: 0;
-    position: absolute;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/silvae\ 1.png');
-    background-size: 100%;
-}
-
-.product h5 {
-    position: absolute;
-    bottom: 30px;
-    z-index: 4;
-    text-align: center;
-    font-weight: normal;
-}
-
-#productfooter{
-    top: 889px;
-}
 
 #description {
     position: absolute;
@@ -1096,7 +1172,6 @@ a {
     font-size: 13px;
     line-height: 18px;
     text-align: justify;
-    display: none;
 
     color: #000000;
 }
@@ -1118,7 +1193,7 @@ a {
 }
 .feature img {
     position: absolute;
-    top: 8px;
+    top: 10px;
     right: 0;
 }
 .write {
@@ -1131,7 +1206,7 @@ a {
 }
 .writing img {
     position: absolute;
-    top: 8px;
+    top: 10px;
     right: 0;
 }
 .writing {
@@ -1158,7 +1233,7 @@ a {
 }
 .dimension img {
     position: absolute;
-    top: 8px;
+    top: 10px;
     right: 0;
 }
 .dimension {
@@ -1375,7 +1450,7 @@ a {
     
     nav a {
         text-decoration: none;
-        color: inherit;
+        color: inheri;
         margin-right: 25px;
         margin-top: 10px;
         font-weight: bold;
@@ -1396,7 +1471,7 @@ a {
         left: calc(50vw - 578.5px);
         width: 1157.56px;
         height: 500px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/unsplash_dmkmrNptMpw.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/unsplash_dmkmrNptMpw.png');
         background-size: 100%;
         margin: 0;
         padding: 0;
@@ -1713,13 +1788,13 @@ a {
         top: 154px;
         width: 100vw;
         height: 735px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/about.gif');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/about.gif');
         background-size: 100%;
         color: white;
     }
 
     #story {
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/story.gif');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/story.gif');
         background-size: 100%;
     }
 
@@ -1950,7 +2025,7 @@ a {
         left: 0;
         width: 100vw;
         height: 614px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/phone.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/phone.png');
     }
 
     .contact form {
@@ -2109,7 +2184,7 @@ a {
     #black {
         position: absolute;
         left: calc(50% - 148px);
-        background: uurl('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/blvck.png');
+        background: uurl('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
         background-size: 100%;
     }
 
@@ -2117,7 +2192,7 @@ a {
         top: 500px;
         left: calc(50% - 148px);
         position: absolute;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/silvae\ 1.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
         background-size: 100%;
     }
 
