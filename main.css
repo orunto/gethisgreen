@@ -32,7 +32,7 @@ h2 {
 }
 @font-face {
     font-family: Bigilla;
-    src: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/assets/Bigilla.otf');
+    src: url('./assets/Bigilla.otf');
 }
 
 h4 {
