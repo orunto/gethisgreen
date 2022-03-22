@@ -32,7 +32,7 @@ h2 {
 }
 @font-face {
     font-family: Bigilla;
-    src: url('./assets/Bigilla.otf');
+    src: url('/assets/fonts/Bigilla.otf');
 }
 
 h4 {
