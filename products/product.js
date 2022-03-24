@@ -1,6 +1,7 @@
 window.onload=function (){
     var onespan = document.getElementById("onespan");
     var threespan = document.getElementById("threespan");
+    var sel = document.getElementById("counter");
 
     onespan.addEventListener("click", thick);
     threespan.addEventListener("click", thick2);
@@ -24,5 +25,9 @@ window.onload=function (){
         onespan.style.border = "1px solid #676767";
         onespan.addEventListener("click", thick);
         threespan.addEventListener("click", thick2);
+    }
+
+    for(var i = 1;i<101;i++){
+        sel[i] = new Option( i,i);	
     }
 }
