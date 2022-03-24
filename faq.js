@@ -33,8 +33,13 @@ window.onload=function (){
         three.style.top = "358px";
         four.style.top = "402px";
         five.style.top = "444px";
+        down.style.top = "40px";
         plus.style.transform = "rotate(45deg)";
         answer1.style.opacity = "1";
+        answer2.style.opacity = "0";
+        answer3.style.opacity = "0";
+        answer4.style.opacity = "0";
+        answer5.style.opacity = "0";
         one.removeEventListener("click", twounder);
         one.addEventListener("click", retract);
     }
@@ -64,38 +69,62 @@ window.onload=function (){
     }
     
     function threeunder () {
+        two.style.top = "242px";
         three.style.top = "358px";
         four.style.top = "402px";
         five.style.top = "444px";
+        down.style.top = "40px";
+        answer1.style.opacity = "0";
         answer2.style.opacity = "1";
+        answer3.style.opacity = "0";
+        answer4.style.opacity = "0";
+        answer5.style.opacity = "0";
         two.removeEventListener("click", threeunder);
         two.addEventListener("click", retract);
     }
 
     function fourunder () {
+        two.style.top = "242px";
+        three.style.top = "286px";
         four.style.top = "402px";
         five.style.top = "444px";
+        down.style.top = "40px";
+        answer1.style.opacity = "0";
+        answer2.style.opacity = "0";
         answer3.style.opacity = "1";
+        answer4.style.opacity = "0";
+        answer5.style.opacity = "0";
         three.removeEventListener("click", fourunder);
         three.addEventListener("click", retract);
     }
 
     function fiveunder () {
+        two.style.top = "242px";
+        three.style.top = "286px";
+        four.style.top = "330px";
         five.style.top = "444px";
+        down.style.top = "40px";
+        answer1.style.opacity = "0";
+        answer2.style.opacity = "0";
+        answer3.style.opacity = "0";
         answer4.style.opacity = "1";
+        answer5.style.opacity = "0";
         four.removeEventListener("click", fiveunder);
         four.addEventListener("click", retract);
     }
 
     function downunder () {
-        down.style.top = "140px";
+        two.style.top = "242px";
+        three.style.top = "286px";
+        four.style.top = "330px";
+        five.style.top = "372px";
+        down.style.top = "110px";
+        answer1.style.opacity = "0";
+        answer2.style.opacity = "0";
+        answer3.style.opacity = "0";
+        answer4.style.opacity = "0";
         answer5.style.opacity = "1";
         five.removeEventListener("click", downunder);
         five.addEventListener("click", retract);
-    }
-
-    // PRODUCT PAGE
-    function blvck () {
-        black.style.opacity = "0";
     }
 }
