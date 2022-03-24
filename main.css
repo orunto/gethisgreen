@@ -903,6 +903,7 @@ a {
     padding: 0;
     cursor: pointer;
     transition: 0.1s;
+    border: 2px solid black;
 }
 
 #submitbutton:hover {
