@@ -1059,26 +1059,75 @@ a {
 .addcolor {
     position: absolute;
     top: 70px;
-    left: calc(50% - 7px);
+    left: calc(50% - 29px);
 }
 
 #blackink {
     position: absolute;
     top: 70px;
-    left: calc(50% - 7px);
+    left: calc(50% - 29px);
 }
 
 #blueink {
     position: absolute;
     top: 70px;
-    left: calc(50% + 22px);
+    left: calc(50% - 7px);
+}
+
+#redink {
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 37px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#greenink {
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 62px);
+    opacity: 0;
+    transition: 0.5s;
 }
 
 #inkbutton {
     position: absolute;
     top: 70px;
-    left: calc(50% + 51px);
+    left: calc(50% + 15px);
 }
+
+#blackcolor {
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 7px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#greencolor {
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 37px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#redcolor {
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 62px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#bluecolor {
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 15px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
 #counter {
     display: block;
     position: absolute;
