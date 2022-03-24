@@ -2,6 +2,7 @@ window.onload=function (){
     var onespan = document.getElementById("onespan");
     var threespan = document.getElementById("threespan");
     var sel = document.getElementById("counter");
+    var sele = document.getElementById("counter2");
 
     onespan.addEventListener("click", thick);
     threespan.addEventListener("click", thick2);
@@ -29,5 +30,9 @@ window.onload=function (){
 
     for(var i = 1;i<101;i++){
         sel[i] = new Option( i,i);	
+    }
+
+    for(var i = 1;i<101;i++){
+        sele[i] = new Option( i,i);	
     }
 }
