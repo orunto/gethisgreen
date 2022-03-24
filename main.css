@@ -1061,6 +1061,24 @@ a {
     top: 70px;
     left: calc(50% - 7px);
 }
+
+#blackink {
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 7px);
+}
+
+#blueink {
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 22px);
+}
+
+#inkbutton {
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 51px);
+}
 #counter {
     display: block;
     position: absolute;
@@ -1070,6 +1088,9 @@ a {
     height: 23px;
     border: 1px solid black;
     color: #000000;
+    background: white;
+    font-family: 'Cinzel';
+    cursor: pointer;
 }
 
 #counter span {
@@ -1109,6 +1130,9 @@ a {
     height: 23px;
     border: 1px solid black;
     color: #000000;
+    background: white;
+    font-family: 'Cinzel';
+    cursor: pointer;
 }
 
 #counter2 span {
